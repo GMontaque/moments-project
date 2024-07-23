@@ -1,6 +1,6 @@
 import axios from "axios";
 
-
-axios.defaults.baseURL = 'https://rest-framework-app-aed304802b04.herokuapp.com/'
-axios.defaults.headers.post['Content-type'] = 'mulipart/form-data'
-axios.defaults.withCredentials = true
+axios.defaults.baseURL =
+	"https://rest-framework-app-aed304802b04.herokuapp.com/";
+axios.defaults.headers.post["Content-type"] = "multipart/form-data";
+axios.defaults.withCredentials = true;
