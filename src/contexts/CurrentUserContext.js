@@ -16,7 +16,6 @@ export const CurrentUserProvider = ({ children }) => {
 	const handleMount = async () => {
 		try {
 			const { data } = await axiosRes.get("dj-rest-auth/user/");
-			//   https://rest-framework-app-aed304802b04.herokuapp.com
 			setCurrentUser(data);
 		} catch (err) {
 			console.log(err);
